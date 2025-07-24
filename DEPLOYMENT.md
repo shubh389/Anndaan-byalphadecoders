@@ -9,16 +9,19 @@ This app is configured for deployment on Vercel with both frontend and backend f
 ## Manual Deployment Steps
 
 1. **Install Vercel CLI** (if not already installed):
+
    ```bash
    npm i -g vercel
    ```
 
 2. **Login to Vercel**:
+
    ```bash
    vercel login
    ```
 
 3. **Deploy from project root**:
+
    ```bash
    vercel
    ```
@@ -51,6 +54,7 @@ This app is configured for deployment on Vercel with both frontend and backend f
 ## Environment Variables
 
 If your app uses environment variables, add them in the Vercel dashboard:
+
 1. Go to your project settings
 2. Navigate to "Environment Variables"
 3. Add your variables (e.g., `DATABASE_URL`, `API_KEY`, etc.)
@@ -58,6 +62,7 @@ If your app uses environment variables, add them in the Vercel dashboard:
 ## Custom Domain
 
 To use a custom domain:
+
 1. Go to your project settings in Vercel
 2. Navigate to "Domains"
 3. Add your custom domain
